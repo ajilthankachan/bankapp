@@ -55,12 +55,12 @@ logged_user = user1.authenticate(acc_no=1000, password="ajil")
 if logged_user == -1 or logged_user == 0:
     print("authentication failed")
 else:
-    print(user1.get_salary(logged_user))
+    print(f'hi {logged_user}, your bank balance is {user1.get_salary(logged_user)}')
 
 user1.fund_transfer(logged_user, 1003, 100000)
-user1.get_salary(logged_user)
+print(f'hi {logged_user}, your bank balance after transfer is {user1.get_salary(logged_user)}')
 
 
 logged_user1 = user1.authenticate(acc_no=1003, password="norah")
-print(user1.get_salary(logged_user1))
+print(f'hi {logged_user1}, your bank balance is {user1.get_salary(logged_user1)}')
 user1.logout()

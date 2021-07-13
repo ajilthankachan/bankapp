@@ -3,7 +3,8 @@ class Bank:
         1000: {'acc_num': 1000, 'password': 'ajil', 'salary': 150000},
         1001: {'acc_num': 1001, 'password': 'elna', 'salary': 250000},
         1002: {'acc_num': 1002, 'password': 'joann', 'salary': 350000},
-        1003: {'acc_num': 1003, 'password': 'norah', 'salary': 400000}
+        1003: {'acc_num': 1003, 'password': 'norah', 'salary': 400000},
+        1004: {'acc_num': 1004, 'password': 'ashik', 'salary': 450000}
     }
 
     session = {}
